@@ -1,11 +1,13 @@
 {
-    "name": "afbora/resellerclub-php-sdk",
-    "description": "PHP SDK for ResellerClub API",
+    "name": "kazist/resellerclub-php-sdk",
+    "description": "Kazist PHP SDK for ResellerClub API",
     "license": "MIT",
-    "authors": [
+  "authors": [
         {
-            "name": "Ahmet Bora",
-            "email": "ahmet.bora@pixelturk.net"
+            "name": "Dedan Irungu",
+            "email": "info@emshyinnovate.com",
+            "homepage": "http://emshyinnovate.com",
+            "role": "Founder & Developer"
         }
     ],
     "require": {
@@ -13,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "afbora\\ResellerClub\\": "src/"
+            "kazist\\ResellerClub\\": "src/"
         }
     },
     "config": {
