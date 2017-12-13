@@ -1,6 +1,6 @@
 <?php
 
-namespace afbora\ResellerClub;
+namespace kazist\ResellerClub;
 
 use GuzzleHttp\Client as Guzzle;
 use GuzzleHttp\RequestOptions;
@@ -22,10 +22,11 @@ trait Helper
     /**
      * @var string
      */
-    protected $api;
+   // protected $api;
 
     public function __construct(Guzzle $guzzle, array $authentication)
     {
+         
         $this->authentication = $authentication;
         $this->guzzle         = $guzzle;
     }

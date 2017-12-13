@@ -1,8 +1,8 @@
 <?php
 
-namespace afbora\ResellerClub\APIs;
+namespace kazist\ResellerClub\APIs;
 
-use afbora\ResellerClub\Helper;
+use kazist\ResellerClub\Helper;
 
 class Domains
 {
@@ -242,7 +242,7 @@ class Domains
         return $this->get(
             'search',
             [
-                'no-of-results'     => $records,
+                'no-of-records'     => $records,
                 'page-no'           => $page,
                 'order-by'          => $order,
                 'order-id'          => $orderIds,

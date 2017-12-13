@@ -2,7 +2,8 @@
     "name": "kazist/resellerclub-php-sdk",
     "description": "Kazist PHP SDK for ResellerClub API",
     "license": "MIT",
-  "authors": [
+    "version": "1.0.2",
+    "authors": [
         {
             "name": "Dedan Irungu",
             "email": "info@emshyinnovate.com",
@@ -15,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kazist\\ResellerClub\\": "src/"
+            "Kazist\\ResellerClub\\": "src/"
         }
     },
     "config": {

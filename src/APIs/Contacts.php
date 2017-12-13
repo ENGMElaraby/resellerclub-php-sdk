@@ -1,8 +1,8 @@
 <?php
 
-namespace afbora\ResellerClub\APIs;
+namespace kazist\ResellerClub\APIs;
 
-use afbora\ResellerClub\Helper;
+use kazist\ResellerClub\Helper;
 
 class Contacts
 {
