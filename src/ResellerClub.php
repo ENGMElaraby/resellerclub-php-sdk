@@ -1,10 +1,10 @@
 <?php
 
-namespace kazist\ResellerClub;
+namespace Kazist\ResellerClub;
 
-use kazist\ResellerClub\APIs\Contacts;
-use kazist\ResellerClub\APIs\Customers;
-use kazist\ResellerClub\APIs\Domains;
+use Kazist\ResellerClub\APIs\Contacts;
+use Kazist\ResellerClub\APIs\Customers;
+use Kazist\ResellerClub\APIs\Domains;
 use GuzzleHttp\Client as Guzzle;
 
 class ResellerClub
@@ -51,7 +51,7 @@ class ResellerClub
     {
      
         if (empty($this->apiList[$api])) {
-            $class = 'kazist\\ResellerClub\\APIs\\' . $api;
+            $class = 'Kazist\\ResellerClub\\APIs\\' . $api;
             $this->apiList[$api] = new $class($this->guzzle, $this->authentication);
             }
 

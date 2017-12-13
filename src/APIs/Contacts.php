@@ -1,8 +1,8 @@
 <?php
 
-namespace kazist\ResellerClub\APIs;
+namespace Kazist\ResellerClub\APIs;
 
-use kazist\ResellerClub\Helper;
+use Kazist\ResellerClub\Helper;
 
 class Contacts
 {

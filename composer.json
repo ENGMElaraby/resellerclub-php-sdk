@@ -2,7 +2,7 @@
     "name": "kazist/resellerclub-php-sdk",
     "description": "Kazist PHP SDK for ResellerClub API",
     "license": "MIT",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
         {
             "name": "Dedan Irungu",

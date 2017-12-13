@@ -1,6 +1,6 @@
 <?php
 
-namespace kazist\ResellerClub;
+namespace Kazist\ResellerClub;
 
 use GuzzleHttp\Client as Guzzle;
 use GuzzleHttp\RequestOptions;
