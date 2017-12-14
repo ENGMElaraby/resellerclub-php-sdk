@@ -65,7 +65,7 @@ trait Helper
                 'POST',
                 $this->api . '/' . $prefix . $method . '.json',
                 [
-                    RequestOptions::FORM_PARAMS => $args,
+                    RequestOptions::FORM_PARAMS => array_merge($args, $this->authentication),
                 ]
             )
         );
