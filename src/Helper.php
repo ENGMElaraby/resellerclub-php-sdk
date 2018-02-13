@@ -88,7 +88,14 @@ trait Helper {
      * @return mixed|\SimpleXMLElement
      * @throws \Exception
      */
-    protected function parse(ResponseInterface $response, $type = 'json') {
+    protected function parse($response, $type = 'json') {
+
+        if (is_object($response)) {
+            $response_str = (string) $response->getBody();
+        } else {
+            $response_str = $response;
+        }
+
         switch ($type) {
             case 'json':
                 return json_decode((string) $response->getBody(), TRUE);
